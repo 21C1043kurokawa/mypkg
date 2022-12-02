@@ -4,7 +4,7 @@
   <name>mypkg</name>
   <version>0.0.0</version>
   <description>a package for practice</description>
-  <maintainer email="ryuichiueda@gmail.com">Daiki Kurokawa</maintainer>
+  <maintainer email="21C1043OE@s.chibakoudai.jp">Daiki Kurokawa</maintainer>
   <exec_depend>rclpy</exec_depend>            
   <exec_depend>std_msgs</exec_depend> 
   <license>BSD-3-Clause</license>
