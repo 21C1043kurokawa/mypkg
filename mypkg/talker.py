@@ -6,19 +6,18 @@ from rclpy.node import Node      #ノードを実装するためのNodeクラス
 from std_msgs.msg import Int16   #通信の型（16ビットの符号付き整数）
 
 class Talker():
-    def __init__(self):
+    def __init__(self,node):
         self.pub = node.create_publisher(Int16,"countup",10)
         self.n = 0
+        node.create_timer(0.5, cb)
+    def cb(self):              #関数内のnやpubをtalkerのものに変更
+        msg = Int16()
+        msg.data = self.n
+        talker.pub.publish(msg)
+        talker.n += 1
 
 rclpy.init()
 node = Node("talker")
-talker = Talker()      #オブジェクトを作成（__init__が実行される。）
- 
-def cb():              #関数内のnやpubをtalkerのものに変更
-    msg = Int16()
-    msg.data = talker.n
-    talker.pub.publish(msg)
-    talker.n += 1
- 
-node.create_timer(0.5, cb)
+talker = Talker(node)      #オブジェクトを作成（__init__が実行される。）
 rclpy.spin(node)
+
