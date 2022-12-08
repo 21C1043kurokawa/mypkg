@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 # SPDX-FileCopyrightText: 2022 Daiki Kurokawa
 # SPDX-License-Identifier: BSD-3-Clause  
 
@@ -11,4 +11,4 @@
  timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
  cat /tmp/mypkg.log |
- grep 'Listen: 100'
+          grep 'Listen: 100'
