@@ -10,6 +10,7 @@ class Talker():
         self.pub = node.create_publisher(Int16,"countup",10)
         self.n = 0
         node.create_timer(0.5, cb)
+
     def cb(self):              #関数内のnやpubをtalkerのものに変更
         msg = Int16()
         msg.data = self.n
