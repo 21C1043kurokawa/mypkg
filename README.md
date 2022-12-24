@@ -10,10 +10,10 @@ git clone https://github.com/21C1043kurokawa/mypkg.git
 ```
 # 概要 
  * messageの通信方法 topic通信
- * publisher /talker
- * subscriber /listner
- * topic /countup
- * messageの型 int16
+ * publisher: /talker
+ * subscriber: /listner
+ * topic: /countup
+ * messageの型: int16
 
 # 実行
 * /talker が数字をカウントし /countup を通じて送信、/listner がメッセージを受け取り表示
