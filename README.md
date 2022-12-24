@@ -10,7 +10,7 @@ git clone https://github.com/21C1043kurokawa/mypkg.git
 # 概要 
  * topic: /countup
  * messageの型: int16
- * /talker が数字をカウントし /countup を通じて送信、/listner がメッセージを受け取り表示
+ * /talker が数字をカウントし /countup を通じて送信、/listener がメッセージを受け取り表示
 # 実行
 ```
 ros2 run mypkg talker
