@@ -12,8 +12,8 @@ git clone https://github.com/21C1043kurokawa/mypkg.git
      * publisher /talker
      * subscriber /listner
      * topic /countup
-  * messageの型 int16
-/talker が数字をカウントし /countup を通じて送信、/listner がメッセージを受け取り表示
+     * messageの型 int16
+     * /talker が数字をカウントし /countup を通じて送信、/listner がメッセージを受け取り表示
 * 
 
 
