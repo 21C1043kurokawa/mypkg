@@ -20,7 +20,7 @@ ros2 run mypkg talker
 ```
 もう一つ端末を立ち上げてそこで
 ```
-ros2 run mypkg listner
+ros2 run mypkg listener
 ```
 
 
