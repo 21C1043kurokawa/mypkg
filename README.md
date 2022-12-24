@@ -2,20 +2,20 @@
 # mypkg
 * ロボットシステム学の授業用ROS2パッケージ
 
-###install
+# install
 ```
 mkdor -p ~/ros2のワークスペース名/src
 cd ~/ros2のワークスペース名/src
 git clone https://github.com/21C1043kurokawa/mypkg.git
 ```
-###概要 
+# 概要 
  * messageの通信方法 topic通信
  * publisher /talker
  * subscriber /listner
  * topic /countup
  * messageの型 int16
 
-###実行
+# 実行
 * /talker が数字をカウントし /countup を通じて送信、/listner がメッセージを受け取り表示
 ```
 ros2 run mypkg talker
@@ -25,17 +25,17 @@ ros2 run mypkg talker
 ros2 run mypkg listener
 ```
 
-###必要なソフトウェア
+# 必要なソフトウェア
  * os
      *Ubuntu22.04.1 LTS
  * ROS2
      * テスト済みバージョン： Humble
  * Python
 
-###テスト済み環境
+# テスト済み環境
  * Ubuntu22.04.1 LTS
 
-###LICENSE
+# LICENSE
  * このソフトウェアパッケージは、３条項BSDライセンスのもと、再配布および使用が許可されています。
  * © 2022 Daiki Kurokawa
 
