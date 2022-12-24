@@ -27,7 +27,8 @@ ros2 run mypkg listener
 
 # 必要なソフトウェア
  * os
-     *Ubuntu22.04.1 LTS
+     * Ubuntu22.04.1 LTS
+     * [download](https://jp.ubuntu.com/download)
  * ROS2
      * テスト済みバージョン： Humble
  * Python
