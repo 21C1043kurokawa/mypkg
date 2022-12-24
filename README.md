@@ -30,5 +30,6 @@ ros2 run mypkg listener
  * Ubuntu22.04.1 LTS
 # LICENSE
  * このソフトウェアパッケージは、３条項BSDライセンスのもと、再配布および使用が許可されています。
+ * 詳細は[LICENSE](https://github.com/21C1043kurokawa/mypkg/blob/master/LICENSE)
  * © 2022 Daiki Kurokawa
 
