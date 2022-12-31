@@ -25,7 +25,7 @@ ros2 run mypkg listener
  * ROS2
      * テスト済みバージョン： Humble
  * Python
-     * テスト済み：3.7～3.10
+     * バージョン：3.10.6
 # テスト済み環境
  * Ubuntu22.04.1 LTS
 # LICENSE
